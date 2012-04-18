@@ -1,3 +1,7 @@
+body {
+	margin: 0px;
+}
+
 p.headline
 	{
 	font-family:"Montserrat";
@@ -42,16 +46,24 @@ img.img
 	border:0;
 	}
 
-h1
-	{font-family:"Montserrat";
+
+h1 {
+	font-family:"Montserrat";
+	margin: 0px;
+	text-align: center;
+	letter-spacing:-5px;
+	padding-top: 15%;
+}
+
+/*
+h1 {
 	color:#4c4e4d;
 	text-align:center;
 	margin-top:15%;
 	font-size:7em;
 	line-height:1em;
-	letter-spacing:-5px;
-	}
-
+}
+*/
 h4
 	{font-family:"Montserrat";
 	color:#4c4e4d;
@@ -86,7 +98,6 @@ a.prev {
 	background-image: url('buttons/btnL_up.jpg');
 }
 
-
 .flexslider {
 	border: 0px;
 }
@@ -95,4 +106,22 @@ table.item {
 	width: 78%;
 	margin-bottom:220px;
 	margin-top:120px;
+}
+
+div.first {
+	background-color: red;
+	height: 100%;
+}
+
+hr {
+	border: 0px black solid;
+	background-color: black;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
 }

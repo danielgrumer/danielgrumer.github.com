@@ -57,6 +57,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 .flex-direction-nav li .next:hover {background-position: -52px -52px; }
 .flex-direction-nav li .prev:hover {background-position: 0px -52px; }
 
+.flex-direction-nav li .next.disabled { display: none; }
+.flex-direction-nav li .prev.disabled { display: none; }
+
 
 .flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
 
