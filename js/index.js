@@ -6,4 +6,10 @@ $(function() {
   });
 
   $('.video').fitVids();
+
+  $('img').lazyload({
+    threshold: 200,
+    effect: 'fadeIn',
+    skip_invisible: false,
+  });
 });
