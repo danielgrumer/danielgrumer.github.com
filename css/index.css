@@ -1,0 +1,98 @@
+p.headline
+	{
+	font-family:"Montserrat";
+	color:white;
+	text-align:center;
+	padding-bottom:3px;
+	padding-top:4px;
+	border:0px;
+	margin:0px;
+	font-size:0.85em;
+	}
+
+p.small
+	{
+	font-family:"Montserrat";
+	color:#4c4e4d;
+	text-align:left;
+	padding:0px;
+	margin-top:3px;
+	margin-right:10px;
+	border:0px;
+	font-size:0.6em;
+	}
+
+p.tabletop
+	{
+	background-color:#ffffff;
+	
+	text-align:center;
+	}
+
+p.tabledetails
+	{
+	background-color:#ffffff;
+	height:35px;
+	text-align:left;
+	}
+
+img.img
+	{width:100%;
+	height:auto;
+	border:0;
+	}
+
+h1
+	{font-family:"Montserrat";
+	color:#4c4e4d;
+	text-align:center;
+	margin-top:15%;
+	font-size:7em;
+	line-height:1em;
+	letter-spacing:-5px;
+	}
+
+h4
+	{font-family:"Montserrat";
+	color:#4c4e4d;
+	text-align:center;
+	font-size:1.5em;
+	line-height:1em;
+	letter-spacing:-1px;
+	}
+
+.tablecell
+{
+	background-color:#ffffff;
+	height:auto;
+	text-align:center;
+	padding: 0px;
+}
+
+
+
+ .slides_container {
+    width:470px;
+    height:170px;
+  }
+
+  .slides_container div {
+    width:470px;
+    height:170px;
+    display:block;
+  }
+
+a.prev {
+	background-image: url('buttons/btnL_up.jpg');
+}
+
+
+.flexslider {
+	border: 0px;
+}
+
+table.item {
+	width: 78%;
+	margin-bottom:220px;
+	margin-top:120px;
+}
