@@ -40,12 +40,6 @@ p.tabledetails
 	text-align:left;
 	}
 
-img.img
-	{width:100%;
-	height:auto;
-	border:0;
-	}
-
 
 h1 {
 	font-family:"Montserrat";
@@ -125,3 +119,10 @@ footer {
 	text-align: center;
 	padding: 10px;
 }
+
+
+img.img
+	{width:100%;
+	height:auto;
+	border:0;
+	}
