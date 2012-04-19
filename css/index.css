@@ -117,9 +117,19 @@ hr {
 	margin: 0px;
 }
 
+
 footer {
 	text-align: center;
-	padding: 10px;
+	margin-bottom: 30px;
+	padding:3px;
+	font-family:"Montserrat";
+	color:white;
+	background-color:#9cb29f;
+	font-size:0.7em;
+	line-height:1em;
+	letter-spacing:0.1em;
+
+
 }
 
 
