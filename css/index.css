@@ -100,11 +100,13 @@ table.item {
 	width: 78%;
 	margin-bottom:220px;
 	margin-top:120px;
+	float:relative;
 }
 
 div.first {
 	background-color: red;
 	height: 100%;
+	float:absolute;
 }
 
 hr {
