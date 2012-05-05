@@ -20,10 +20,11 @@ p.small
 	color:#4c4e4d;
 	text-align:left;
 	padding:0px;
-	margin-top:3px;
+	margin-top:4px;
 	margin-right:10px;
+	margin-bottom:2px;
 	border:0px;
-	font-size:0.6em;
+	font-size:10px;
 	}
 
 p.tabletop
@@ -33,13 +34,36 @@ p.tabletop
 	text-align:center;
 	}
 
-p.tabledetails
+.tabledetails1
+	{
+	background-color:#ffffff;
+	height:35px;
+	width:18%;
+	text-align:left;
+	}
+
+.tabledetails2
+	{
+	background-color:#ffffff;
+	height:35px;
+	width:7%;
+	text-align:left;
+	}
+
+.tabledetails3
 	{
 	background-color:#ffffff;
 	height:35px;
 	text-align:left;
 	}
 
+.tabledetails4
+	{
+	background-color:#ffffff;
+	height:35px;
+	width:55%;
+	text-align:left;
+	}
 
 h1 {
 	font-family:"Montserrat";
