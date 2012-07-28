@@ -50,9 +50,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 
 /* Direction Nav */
 .flex-direction-nav { height: 0;}
-.flex-direction-nav li a {width: 52px; height: 52px; margin: 0px 0px 0px 0px; display: block; background: url(theme/bg_direction_nav.png) no-repeat; position: absolute; top: 87%; cursor: pointer; text-indent: -999em;}
-.flex-direction-nav li .next {background-position: -52px 0; right: 600px;}
-.flex-direction-nav li .prev {left: 94px;:50px;}
+.flex-direction-nav li a {width: 52px; height: 52px; margin: 0px 0px 0px 0px; display: block; background: url(theme/bg_direction_nav.png) no-repeat; position: absolute; top: 90%; cursor: pointer; text-indent: -999em;}
+.flex-direction-nav li .next {background-position: -52px 0; right: 590px;}
+.flex-direction-nav li .prev {left: 104px;:50px;}
 
 .flex-direction-nav li .next:hover {background-position: -52px -52px; }
 .flex-direction-nav li .prev:hover {background-position: 0px -52px; }
