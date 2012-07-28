@@ -189,6 +189,42 @@ img.logo {
 	margin-right:430px;
 	margin-top:38px;
 }
+
+div.contain {
+	position:center;
+	float:center;
+	display:block-inline;
+	background-color: transparent;
+	width:650px;
+	height:450px;
+	margin:auto;
+}
+
+div.top-right {
+	position:absolute;
+	background-color: transparent;
+	width:415px;
+	height:26px;
+}
+
+div.meat {
+	position:absolute;
+	background-color: red;
+	width:650px;
+	height:424px;
+	top:26px;
+}
+
+div.content {
+	position:absolute;
+	background-color: blue;
+	width:208px;
+	height:450px;
+	right:415px;
+	top:-26px;
+}
+
+
 /*
 p.headline
 	{
