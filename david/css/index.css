@@ -209,7 +209,7 @@ div.top-right {
 
 div.meat {
 	position:absolute;
-	background-color: red;
+	background-color: transparent;
 	width:650px;
 	height:424px;
 	top:26px;
@@ -217,12 +217,33 @@ div.meat {
 
 div.content {
 	position:absolute;
-	background-color: blue;
+	background-color: white;
 	width:208px;
 	height:450px;
 	right:415px;
 	top:-26px;
 }
+
+.property {
+	margin-left:12px;
+	margin-right:12px;
+}
+
+h3 {
+	font-size:32px;
+	line-height:32px;
+	color:#8b6a46;
+	margin:12px;
+}
+
+.propert-desc {
+	font-size:20px;
+	line-height:20px;
+	color:#d4bb78;
+	margin:12px;
+}
+
+
 
 
 /*
