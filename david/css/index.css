@@ -50,6 +50,20 @@ div.opener {
 
 }
 
+.spacer {
+	float: center;
+	z-index: 1;
+	display: block;
+	width: 700px;
+	height:80px	;
+	vertical-align: middle;
+	margin:auto;
+	margin-bottom:0px;
+	border-radius: 4px;
+	background-color: transparent;
+	z-index:0;
+
+}
 .welcome {
 	float: center;
 	z-index: 1;
@@ -66,6 +80,10 @@ div.opener {
 
 }
 
+.closure {
+	position:relative;
+	top:3px;
+}
 
 div.center {
 	float: center;
@@ -77,6 +95,8 @@ div.center {
 	background-color: white;
 	border-radius: 4px;
 	z-index:0;
+	box-shadow: 3px 3px 30px #e1d3b5;
+	opacity:0.9;
 }
 
 div.junction {
@@ -137,6 +157,7 @@ img.slider {
 	margin-left: 25px;
 	margin-bottom: 15px;
 	width:93%;
+	border-radius: 2px;
 	
 }
 
@@ -144,7 +165,7 @@ img.slider {
 	border: 0px;
 	margin-top:90px;
 }
-
+/*
 .slides_container {
     width:470px;
     height:170px;
@@ -155,7 +176,7 @@ img.slider {
     height:170px;
     display:block;
   }
-
+*/
 
 a.prev {
 	background-image: url('buttons/btnL_up.jpg');
