@@ -8,11 +8,10 @@ font-weight: normal;
 font-style: normal;
 }
 
-
 body {
 	/*background-color:#d4bb78;*/
 	margin: 0px;
-	font-family:Carmela;
+	font-family:'Carmela';
 	font-size:15x;
 	line-height:18px;
 	font-weight:normal;
@@ -69,10 +68,10 @@ div.opener {
 	z-index: 1;
 	display: block;
 	width: 700px;
-	height:320px;
+	height: 320px;
 	vertical-align: middle;
 	margin:auto;
-	margin-bottom:250px;
+	margin-bottom: 250px;
 	color: #d4bb78;
 	background-color: white;
 	border-radius: 4px;
@@ -99,14 +98,13 @@ div.center {
 	opacity:0.9;
 }
 
-div.junction {
-	float: center;
-	width: 700px;
-	margin:auto ;
-	margin-bottom: 150px;
-	color: #3f2715;
-	background-color: transparent;
+div.arrowup {
+	width:11px;
+	height:10px;
+	background-image:url('img/arrows.png');
+	background-position: -12px;
 }
+
 
 h1 {
 	text-align:right;
@@ -139,16 +137,47 @@ p {
 	font-size: 16px;
 	margin-right: 25px;
 	margin-left:150px;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 	z-index: 1;
 }
 
+div.junction {
+	float: center;
+	position:relative;
+	display: block;
+	width: 700px;
+	margin:auto ;
+	margin-bottom: 150px;
+	color: #3f2715;
+	background-color: transparent;
+	font-color: #31393d;
+	font-size: 12px;
+	text-align:center;
+}
 
 img.junction {
-	margin-right:45px;
+	/*margin-right:45px;*/
 	margin-left:5px;
+	position:relative;
+	top:-1px;
 }
+
+a.junction {
+	color:#3f2715;
+	font-size:12px;
+	background-color: white;
+	border-radius: 2px;
+	padding:5px 6px 4px 6px;
+	margin-right:8px;
+}
+
+a.junction:hover {
+	color: #0088cc;
+	text-decoration: none;
+	background-color: #c0e2f3;
+}
+
 
 img.slider {
 	position:center;
@@ -183,8 +212,8 @@ a.prev {
 }
 
 img.logo {
-	float:relative;
-	display:inline-block;
+/*	float:relative;
+	display:inline-block; - Probably not needed */
 	position:absolute;
 	margin-right:430px;
 	margin-top:38px;
@@ -304,6 +333,21 @@ div.property-tag {
 .shach {
 	color:#d4bb78;
 	font-size:16px;
+}
+
+footer {
+	text-align: center;
+	color:white;
+	padding-bottom: 25px;
+	padding-top:12px;
+	color:white;
+	background-color:#31393d;
+	font-size:11px;
+
+}
+
+a.footer {
+	color:#d4bb78;
 }
 
 /*
