@@ -31,7 +31,7 @@
 							event.preventDefault();
 	
 							// Animate to target
-							$(scrollElem).animate({scrollTop: targetOffset}, 600, function() {
+							$(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
 	
 								// Set hash in URL after animation successful
 								//location.hash = target;
