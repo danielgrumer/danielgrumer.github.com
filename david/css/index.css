@@ -89,6 +89,16 @@
 			font-style: normal;
 			}
 
+		@font-face {
+			font-family: 'almoni-tzar';
+			src: url('Fonts/almoni-tzar-aaa-300.eot');
+			src: url('Fonts/almoni-tzar-aaa-300.eot?#iefix') format('embedded-opentype'),
+			url('Fonts/almoni-tzar-aaa-300.woff') format('woff'),
+			url('Fonts/almoni-tzar-aaa-300.ttf') format('truetype');
+			font-weight: 300;
+			font-style: normal;
+			}
+
 		body {
 			margin: 0px;
 			font-family:'Carmela';
