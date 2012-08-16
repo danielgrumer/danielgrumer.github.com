@@ -31,10 +31,10 @@
 							event.preventDefault();
 	
 							// Animate to target
-							$(scrollElem).animate({scrollTop: targetOffset}, 2022, function() {
+							$(scrollElem).animate({scrollTop: targetOffset}, 600, function() {
 	
 								// Set hash in URL after animation successful
-								//location.hash = target;
+								// location.hash = target;
 	
 							});
 						});
