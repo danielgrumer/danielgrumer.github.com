@@ -152,6 +152,13 @@
 		    font-style: normal;
 		}
 
+	@font-face {
+			font-family: 'ModernPictogramsNormal';
+			src: url('Fonts/modernpics-webfont.woff') format('woff');
+			font-weight:normal;
+			font-style:normal;
+		}
+
 		@font-face {
 			font-family: 'Typicons';
 			src: url('fonts/typicons-regular-webfont.eot');
