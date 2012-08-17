@@ -151,14 +151,14 @@
 		    font-weight: normal;
 		    font-style: normal;
 		}
-
+/*
 		@font-face {
 			font-family: 'ModernPictogramsNormal';
 			src: url('Fonts/modernpics-webfont.woff') format('woff');
 			font-weight:normal;
 			font-style:normal;
 		}
-
+*/
 		@font-face {
 			font-family: 'Typicons';
 			src: url('fonts/typicons-regular-webfont.eot');
@@ -170,12 +170,12 @@
 			font-style: normal;
 		}
 
-		@font-face {
+/*		@font-face {
 			font-family: 'Typicons';
 			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
 			font-weight:normal;
 			font-style:normal;
-		}
+		}*/
 
 		body {
 			margin: 0px;

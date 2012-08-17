@@ -29,7 +29,7 @@ $(document).ready(function() {
         $(this).click(function(event) {
           event.preventDefault();
           var targetOffset = $target.offset().top - 25;
-          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+          $(scrollElem).animate({scrollTop: targetOffset}, 800, function() {
             // location.hash = target;
           });
         });
