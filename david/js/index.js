@@ -7,6 +7,8 @@ $(function() {
 });
 
 
+
+
 // smooth scrolling
 
 $(document).ready(function() {
@@ -29,7 +31,7 @@ $(document).ready(function() {
         $(this).click(function(event) {
           event.preventDefault();
           var targetOffset = $target.offset().top - 25;
-          $(scrollElem).animate({scrollTop: targetOffset}, 800, function() {
+          $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
             // location.hash = target;
           });
         });
@@ -37,7 +39,6 @@ $(document).ready(function() {
     }
   });
 
-  // use the first element that is "scrollable"
   function scrollableElement(els) {
     for (var i = 0, argLength = arguments.length; i <argLength; i++) {
       var el = arguments[i],
