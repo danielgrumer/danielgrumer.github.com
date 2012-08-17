@@ -77,6 +77,8 @@
 				padding-bottom: 60px;
 				z-index:1;
 				display: inline;
+				font-weight: normal;
+				font-style: normal;			
 				}
 
 /*  Special Menu  */
@@ -208,6 +210,8 @@
 			margin-top: 25px;
 			margin-bottom: -15px;
 			z-index:1;
+			font-weight: normal;
+			font-style: normal;
 			}
 
 		p {
@@ -234,6 +238,8 @@
 			border:1px;
 			background: #8b6a46;
 			padding:65px;
+			font-weight: normal;
+			font-style: normal;
 
 		}
 
@@ -384,6 +390,8 @@
 			color:#8b6a46;
 			margin:12px;
 			margin-bottom:2px;
+			font-weight: normal;
+			font-style: normal;
 			}
 
 		.property-desc {  /*  the upper description  */
@@ -527,6 +535,8 @@
 			color:white;
 			margin-right:0px;
 			padding:0px;
+			font-weight: normal;
+			font-style: normal;		
 		}
 
 		img.radius {
@@ -618,6 +628,8 @@
 		direction: rtl;
 		float:right;
 		vertical-align: middle;
+		font-weight: normal;
+		font-style: normal;
 	}
 
 	p.events {
@@ -684,6 +696,8 @@
 		direction: rtl;
 		background: #e8eef0;
 		border-radius: 2px;
+		font-weight: normal;
+		font-style: normal;
 
 
 	}
@@ -700,6 +714,8 @@
 		border-width: 0px 0px 1px 0px;
 		border-style:solid;
 		border-color: #e8eef0;
+		font-weight: normal;
+		font-style: normal;
 	}
 
 	p.event {
@@ -838,6 +854,8 @@
 			font-size: 26px;
 			padding-right: 25px;
 			color: #8b6a46;
+			font-weight: normal;
+			font-style: normal;
 			}
 
 /*  5 Columns Table  */
@@ -994,6 +1012,8 @@
 		margin-bottom:6px;
 		font-size: 24px;
 		color: #31393d;
+		font-weight: normal;
+		font-style: normal;
 	}
 
 	td.nicetoknow {
@@ -1078,6 +1098,8 @@
 			margin-bottom:20px;
 			color: #8b6a46;
 			clear: both;
+			font-weight: normal;
+			font-style: normal;			
 			}
 
 		table.table-list {
@@ -1146,6 +1168,8 @@
 			outline-style: solid;
 			text-align: center;
 			position: relative;
+			font-weight: normal;
+			font-style: normal;			
 
 			}
 
@@ -1171,6 +1195,8 @@
 			text-align:justify;
 			word-spacing: -1px;
 			letter-spacing: 0.2px;
+			font-weight: normal;
+			font-style: normal;
 			text-shadow: 2px 2px 2px #b2bcbf;
 	        filter: dropshadow(color=#b2bcbf, offx=1, offy=1);
 
@@ -1230,6 +1256,8 @@
 		display:block;
 		float:right;
 		margin:25px;
+		font-weight: normal;
+		font-style: normal;		
 	}
 
 	.text16 {
@@ -1313,6 +1341,8 @@
 			line-height: 44px;
 			color:white;
 			clear: both;
+			font-weight: normal;
+			font-style: normal;
 		}
 
 		.mocca {
@@ -1336,6 +1366,8 @@
 			width: 200px;
 			color: white;
 			text-align: center;
+			font-weight: normal;
+			font-style: normal;
 		}
 
 		td.contact {
@@ -1365,6 +1397,8 @@
 			color: #847a69;
 			text-align: center;
 			text-shadow: 0px 1px 4px #585249;
+			font-weight: normal;
+			font-style: normal;
 
 		}
 
@@ -1379,6 +1413,8 @@
 			position: relative;
 			top:1px;
 			font-weight: normal;
+			font-weight: normal;
+			font-style: normal;
 
 		}
 
@@ -1389,6 +1425,7 @@
 			top:1px;
 			vertical-align: bottom;
 			font-weight: normal;
+			font-style: normal;
 
 		}
 
@@ -1401,6 +1438,8 @@
 			font-weight: normal;
 			color: #847a69;
 			text-shadow: 0px 1px 3px #585249;
+			font-weight: normal;
+			font-style: normal;
 
 		}
 
