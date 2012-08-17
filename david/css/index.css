@@ -170,6 +170,13 @@
 			font-style: normal;
 		}
 
+		@font-face {
+			font-family: 'Typicons';
+			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
+			font-weight:normal;
+			font-style:normal;
+		}
+
 		body {
 			margin: 0px;
 			font-family:'rutz-reg';
@@ -1354,7 +1361,6 @@
 		.icon {
 			font-family: 'ModernPictogramsNormal';
 			font-size:120px;
-			font-size:300px;
 			line-height: 100px;
 			color: #847a69;
 			text-align: center;
@@ -1368,7 +1374,6 @@
 			font-family: 'ModernPictogramsNormal';
 			font-weight: normal;
 			font-size:50px;
-			font-size:200px;
 			text-align: center;
 			text-shadow: 0px 1px 3px #c3c6c8;
 			position: relative;
