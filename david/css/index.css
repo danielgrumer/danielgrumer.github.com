@@ -1,3 +1,123 @@
+/*  General Objects  */
+		@font-face {
+			font-family: 'Carmela';
+			src: url('Fonts/carmela.eot');
+			src: url('Fonts/carmela.eot?#iefix') format('embedded-opentype'),
+			url('Fonts/carmela.woff') format('woff'),
+			url('Fonts/carmela.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		@font-face {
+			font-family: 'almoni-tzar';
+			src: url('Fonts/almoni-tzar-aaa-300.eot');
+			src: url('Fonts/almoni-tzar-aaa-300.eot?#iefix') format('embedded-opentype'),
+			url('Fonts/almoni-tzar-aaa-300.woff') format('woff'),
+			url('Fonts/almoni-tzar-aaa-300.ttf') format('truetype');
+			font-weight: 300;
+			font-style: normal;
+			}
+
+		@font-face {
+			font-family: 'rutz-reg';
+			src: url('Fonts/rutz-reg.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		@font-face {
+			font-family: 'rutz-bold';
+			src: url('Fonts/rutz-bold.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		@font-face {
+			font-family: 'ModernPictogramsNormal';
+			src: url('Fonts/modernpics-webfont.woff') format('woff');
+			font-weight:normal;
+			font-style:normal;
+			}
+
+		@font-face {
+			font-family: 'Typicons';
+			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		body {
+			margin: 0px;
+			font-family:'rutz-reg';
+			font-size: 15px;
+			line-height: 18px;
+			font-weight: normal;
+			direction: rtl;
+			background-repeat: repeat;
+			}
+
+		div.center {
+			float: center;
+			display: block;
+			width: 700px;
+			margin:auto ;
+			margin-bottom: 10px;
+			color: #d4bb78;
+			background-color: white;
+			border-radius: 4px;
+			z-index:0;
+			box-shadow: 3px 3px 30px #e1d3b5;
+			}
+
+		h2 {
+			text-align:right;
+			font-size: 50px;
+			margin-right: 25px;
+			margin-top: 25px;
+			margin-bottom: -15px;
+			z-index:1;
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		p {
+			color:#31393d;
+			display:block;
+			text-align:right;
+			float:right;
+			font-size: 16px;
+			margin-right: 25px;
+			margin-left: 25px;
+			margin-top: 15px;
+			margin-bottom: 5px;
+			z-index: 1;
+			font-weight: normal;
+			font-style: normal;				
+			}
+
+		h4 {
+			text-align: center;
+			color: #d4bb78;
+			font-size: 50px;
+			margin-right: 25px;
+			margin-top: 25px;
+			margin-bottom: 55px;
+			z-index: 1;
+			border: 1px;
+			background: #8b6a46;
+			padding: 65px;
+			font-weight: normal;
+			font-style: normal;
+	 		}
+
+		.font-icons1 {
+			font-family: 'typicons';
+			}
+
+		.font-icons2 {
+			font-family: 'ModernPictogramsNormal';
+			}
 
 /*  Top Opener  */
 
@@ -83,7 +203,6 @@
 
 /*  Special Menu  */
 
-
 		.special {
 			color: #81cce7;
 			color: #8b6a46;
@@ -101,148 +220,15 @@
 			border-radius: 4px;
 			z-index:0;
 			box-shadow: 3px 3px 30px #e1d3b5;
-			/*			-webkit-transform: scale(1) rotate(0.5deg) translateX(0px) translateY(0px) skewX(-0.5deg) skewY(0.5deg);
-			*/			}
+		}
 
 		.textclear {
 			float:none;
 			margin-bottom:-15px;
 		}
 
-/*  General Objects  */
-		@font-face {
-			font-family: 'Carmela';
-			src: url('Fonts/carmela.eot');
-			src: url('Fonts/carmela.eot?#iefix') format('embedded-opentype'),
-			url('Fonts/carmela.woff') format('woff'),
-			url('Fonts/carmela.ttf') format('truetype');
-			font-weight: normal;
-			font-style: normal;
-			}
-
-		@font-face {
-			font-family: 'almoni-tzar';
-			src: url('Fonts/almoni-tzar-aaa-300.eot');
-			src: url('Fonts/almoni-tzar-aaa-300.eot?#iefix') format('embedded-opentype'),
-			url('Fonts/almoni-tzar-aaa-300.woff') format('woff'),
-			url('Fonts/almoni-tzar-aaa-300.ttf') format('truetype');
-			font-weight: 300;
-			font-style: normal;
-			}
-
-		@font-face {
-			font-family: 'rutz-reg';
-			src: url('Fonts/rutz-reg.woff') format('woff');
-			font-weight:normal;
-			font-style:normal;
-		}
-
-		@font-face {
-			font-family: 'rutz-bold';
-			src: url('Fonts/rutz-bold.woff') format('woff');
-			font-weight:normal;
-			font-style:normal;
-		}
-
-/*		@font-face {
-		    font-family: 'ModernPictogramsNormal';
-		    src: url('fonts/modernpics-webfont.eot');
-		    src: url('fonts/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
-		         url('fonts/modernpics-webfont.woff') format('woff'),
-		         url('fonts/modernpics-webfont.ttf') format('truetype');
-		    font-weight: normal;
-		    font-style: normal;
-		}*/
-
-		@font-face {
-			font-family: 'ModernPictogramsNormal';
-			src: url('Fonts/modernpics-webfont.woff') format('woff');
-			font-weight:normal;
-			font-style:normal;
-		}
-
-/*		@font-face {
-			font-family: 'Typicons';
-			src: url('fonts/typicons-regular-webfont.eot');
-			src: url('fonts/typicons-regular-webfont.eot?#iefix') format('embedded-opentype'),
-				url('fonts/typicons-regular-webfont.woff') format('woff'),
-				url('fonts/typicons-regular-webfont.ttf') format('truetype'),
-				url('fonts/typicons-regular-webfont.svg#TypiconsRegular') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}*/
-
-		@font-face {
-			font-family: 'Typicons';
-			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
-			font-weight:normal;
-			font-style:normal;
-		}
-
-		body {
-			margin: 0px;
-			font-family:'rutz-reg';
-			font-size:15x;
-			line-height:18px;
-			font-weight:normal;
-			direction: rtl;
-			background-repeat: repeat;
-			}
-
-		div.center {
-			float: center;
-			display: block;
-			width: 700px;
-			margin:auto ;
-			margin-bottom: 10px;
-			color: #d4bb78;
-			background-color: white;
-			border-radius: 4px;
-			z-index:0;
-			box-shadow: 3px 3px 30px #e1d3b5;
-			/*			-webkit-transform: scale(1) rotate(0.5deg) translateX(0px) translateY(0px) skewX(-0.5deg) skewY(0.5deg);
-			*/			}
-
-		h2 {
-			text-align:right;
-			font-size: 50px;
-			margin-right: 25px;
-			margin-top: 25px;
-			margin-bottom: -15px;
-			z-index:1;
-			font-weight: normal;
-			font-style: normal;
-			}
-
-		p {
-			color:#31393d;
-			display:block;
-			text-align:right;
-			float:right;
-			font-size: 16px;
-			margin-right: 25px;
-			margin-left: 25px;
-			margin-top: 15px;
-			margin-bottom: 5px;
-			z-index: 1;
-			font-weight: normal;
-			font-style: normal;				
-			}
-
-		h4 {
-			text-align:center;
-			color: #d4bb78;
-			font-size: 50px;
-			margin-right: 25px;
-			margin-top: 25px;
-			margin-bottom: 55px;
-			z-index:1;
-			border:1px;
-			background: #8b6a46;
-			padding:65px;
-			font-weight: normal;
-			font-style: normal;
-
+		.italic {
+			font-style:italic;
 		}
 
 /*  Juncions  */
@@ -362,7 +348,7 @@
 
 		.flexslider {
 			border: 0px;
-			margin-top:30px;
+			margin-top:28px;
 			background:transparent;
 			}
 
@@ -389,6 +375,7 @@
 			}
 
 		.shach {
+			font-family: 'Carmela';
 			color:#d4bb78;
 			font-size:16px;
 			}
