@@ -91,14 +91,13 @@
 
 		div.F {
 			position: relative;
-			background-color: ##f6faff;
+			background: #f7faff; 
 		}
 
 		div.G {
 			position: relative;
 			background-color:#00a69c; 
 			top:-2px;
-
 		}
 
 		img.transition {
