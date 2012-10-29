@@ -33,7 +33,6 @@
 			}
 
 		div.A {
-			height:600px;
 			position: relative;
 			display: block;
 			float: center;
@@ -49,7 +48,6 @@
 
 		div.B {
 			background: #F7FAFF;
-			height: 2400px;
 		}
 
 		div.C {
@@ -93,7 +91,7 @@
 
 		div.F {
 			position: relative;
-			background: ##f7faff;
+			background: ##f6faff;
 		}
 
 		div.G {
