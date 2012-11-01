@@ -115,6 +115,11 @@
 		padding-bottom:100px;
 	}
 
+	div.content3 {
+		float:none;
+		background: #00a69c;
+		padding-bottom:200px;
+	}
 
 /* IMAGES */
 
@@ -123,23 +128,30 @@
 		}
 
 		img.logo {
-			margin-top: 15%;
-			margin-bottom: 85px;
-			position: relative;
-				}
+			width: 500px;
+			margin:100px;
+		}
+
+		img.logos {
+			width:500px;
+			margin:60px;
+		}
 
 		img.mirrorhouse {
 			width: 720px;
 			border-radius: 5px;
 			box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.69);
-			margin: 50px;
+			margin-top: 50px;
+			margin-bottom:10px;
 		}
 
 		img.touchscreen {
-			width: 640px;
-			border-radius: 5px;
-			box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.69);
+			width: 340px;
+			border-radius: 4px;
+			box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.4);
 			margin-top: 50px;
+			margin-bottom:10px;
+
 		}
 
 		img.school-logo {
@@ -149,12 +161,33 @@
 			top: -3px;
 		}
 
+		img.we {
+			margin:30px;
+		}
+
+		img.hansens {
+			margin:30px;
+			margin-bottom:100px;
+		}
+
+		img.arrowdown {
+			width:75px;
+			margin-bottom:55px;
+		}
+
+		img.humanature {
+			margin-top:35px;
+		}
+
+		img.icons {
+			width:600px;
+		}
 
 /* TEXTS */
 
 		h2 {
 			font-family: 'Lobster';
-			padding-top: 150px;
+			padding-top: 88px;
 			color:#31393d;
 			display:block;
 			text-align:center;
@@ -174,8 +207,11 @@
 		}
 
 		p.caption {
+			width: 660px;
+			margin:auto;
+			float:center;
 			font-size: 16px;
-			line-height: 16px;
+			line-height: 20px;
 			position: relative;
 			padding: 10px;	
 		}
@@ -197,161 +233,10 @@
 			}
 
 		iframe.video {
-				margin: 50px;
+				margin-top: 50px;
+				margin-bottom:10px;
 				border-radius: 5px;
 			}
-
-/*  Footer  */
-
-		footer {
-			background-color:#6a6357;
-			padding-bottom: 80px;
-		}
-
-		div.footer {
-			text-align: center;
-			display: block;
-			width: 100%;
-			position: relative;
-			padding-top:-70px;
-			padding-bottom:145px;
-			color:white;
-		}
-
-		a.footer {
-			color:#d4bb78;
-		}
-
-		a.footer:hover {
-			color: #e6d6ab;
-			text-decoration: none;
-		}
-
-		img.footerlogo {
-			position:relative;
-			float:center;
-			display: block;
-			z-index: 2;
-			top:-110px;
-			width: 200px;
-			height: 200px;
-			margin:auto;
-			box-shadow: 3px 3px 20px #31393d;
-			border-radius: 100px;
-			top:-90px;
-		}
-
-		h1.footer {
-			font-family:'rutz-reg';
-			font-size:38px;
-			width:100%;
-			text-align: center;
-			margin:0px;
-			padding:0px;
-			line-height: 44px;
-			color:white;
-			clear: both;
-			font-weight: normal;
-			font-style: normal;
-		}
-
-		.mocca {
-			color: #d4bb78;
-		}
-
-		table.contact {
-			border-color: white;
-			width: 660px;
-			margin:auto;
-			background-color: transparent;
-			border-radius:3px;
-		}
-
-		h3.contact {
-			padding: 0px;
-			margin: 0px;
-			margin-top:0px;
-			margin-bottom:2px;
-			font-size: 20px;
-			width: 200px;
-			color: white;
-			text-align: center;
-			font-weight: normal;
-			font-style: normal;
-		}
-
-		td.contact {
-			width:180px;
-			/* padding-right:25px; */
-			padding-left:50px;
-			padding-bottom: 25px;
-			color: #c3c8ca;
-			text-align: center;
-			font-size:14px;
-		}
-		
-		td.contactlefty {
-			width:180px;
-			padding-right: 0px;
-			padding-left: 0px;
-			padding-bottom: 25px;
-			color: #c3c8ca;
-			text-align: center;
-			font-size:14px;	
-		}
-
-		.icon {
-			font-family: 'ModernPictogramsNormal';
-			font-size:120px;
-			line-height: 100px;
-			color: #847a69;
-			text-align: center;
-			text-shadow: 0px 1px 4px #585249;
-			font-weight: normal;
-			font-style: normal;
-
-		}
-
-
-
-		.smallicon {
-			font-family: 'ModernPictogramsNormal';
-			font-weight: normal;
-			font-size:50px;
-			text-align: center;
-			text-shadow: 0px 1px 3px #c3c6c8;
-			position: relative;
-			top:1px;
-			font-weight: normal;
-			font-weight: normal;
-			font-style: normal;
-
-		}
-
-		.typicon {
-			font-family: 'Typicons';
-			font-size:16px;
-			position: relative;
-			top:1px;
-			vertical-align: bottom;
-			font-weight: normal;
-			font-style: normal;
-
-		}
-
-		.wierdcolor {
-			font-family: 'ModernPictogramsNormal';
-			font-size:50px;
-			text-align: center;
-			position: relative;
-			top:1px;
-			font-weight: normal;
-			color: #847a69;
-			text-shadow: 0px 1px 3px #585249;
-			font-weight: normal;
-			font-style: normal;
-
-		}
 
 
 
