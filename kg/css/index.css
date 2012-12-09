@@ -121,6 +121,14 @@
 		padding-bottom:200px;
 	}
 
+	div.new {
+		background: white;
+		padding:250px;
+		;
+	}
+
+
+
 /* IMAGES */
 
 		img.transition {
@@ -220,6 +228,13 @@
 		img.mb5 {
 			width:640px;
 			margin-top:130px;
+		}
+
+		img.process {
+			width:700px;
+			margin-top:90px;
+			box-shadow: 1px 1px 11px rgba(50, 50, 50, 0.4);
+			border-radius: 3px;
 		}
 
 /* TEXTS */
