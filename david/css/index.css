@@ -1085,6 +1085,8 @@
 		color: #31393d;
 		font-weight: normal;
 		font-style: normal;
+		font-weight: 'regular';
+
 	}
 
 	td.nicetoknow {
@@ -1106,8 +1108,8 @@
 		}
 
 	img.nicetoknow {
-		box-shadow: 2px 2px 10px #cfd2d4;
-		height: 210px;
+/*		box-shadow: 2px 2px 10px #cfd2d4;
+*/		height: 210px;
 		width: 210px ;
 		border-radius: 1px;
 		clear:both;
