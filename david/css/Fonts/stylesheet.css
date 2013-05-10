@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'Alef';
-    src: url('Alef-bold.eot');
-    src: url('Alef-bold.eot?#iefix') format('embedded-opentype'),
-         url('Alef-bold.woff') format('woff'),
-         url('Alef-bold.ttf') format('truetype'),
-         url('Alef-bold.svg#alefbold') format('svg');
+    src: url('Alef-Bold.eot');
+    src: url('Alef-Bold.eot?#iefix') format('embedded-opentype'),
+         url('Alef-Bold.woff') format('woff'),
+         url('Alef-Bold.ttf') format('truetype'),
+         url('Alef-Bold.svg#alefbold') format('svg');
     font-weight: bold;
     font-style: normal;
 
@@ -19,11 +19,11 @@
 
 @font-face {
     font-family: 'Alef';
-    src: url('Alef-regular.eot');
-    src: url('Alef-regular.eot?#iefix') format('embedded-opentype'),
-         url('Alef-regular.woff') format('woff'),
-         url('Alef-regular.ttf') format('truetype'),
-         url('Alef-regular.svg#alefregular') format('svg');
+    src: url('Alef-Regular.eot');
+    src: url('Alef-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Alef-Regular.woff') format('woff'),
+         url('Alef-Regular.ttf') format('truetype'),
+         url('Alef-Regular.svg#alefregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
