@@ -1,29 +1,15 @@
 /*  General Objects  */
-		@font-face{
-		  font-family: 'Alef';
-		  src: url('Alef-regular.eot');
-		  src: url('Alef-regular.eot?#iefix')
-		       format('embedded-opentype'),
-		       url('Alef-regular.woff') format('woff'),
-		       url('Alef-regular.ttf') format('truetype'),
-		       url('Alef-regular.svg#webfont') format('svg');
-		       font-weight: normal;
-		       font-style: normal;
-		       display: block;
 
+		@font-face {
+		    font-family: 'Alef';
+		    src: url('Alef-Regular.eot');
+		    src: url('Alef-Regular.eot?#iefix') format('embedded-opentype'),
+		         url('Alef-Regular.woff') format('woff'),
+		         url('Alef-Regular.ttf') format('truetype'),
+		         url('Alef-Regular.svg#alefregular') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
 		}
-
-		@font-face{
-		  font-family: 'Alef-Bold';
-		  src: url('Alef-bold.eot');
-		  src: url('Alef-bold.eot?#iefix')
-		       format('embedded-opentype'),
-		       url('Alef-bold.woff') format('woff'),
-		       url('Alef-bold.ttf') format('truetype'),
-		       url('Alef-bold.svg#webfont') format('svg');
-		       display: block;
-		}
-
 
 
 		@font-face {
@@ -42,7 +28,7 @@
 
 		body {
 			margin: 0px;
-			font-family:'Alef';
+			font-family: 'Alef', Arial, sans-serif;
 			font-size: 15px;
 			line-height: 18px;
 			direction: rtl;
@@ -64,7 +50,7 @@
 
 		h2 {
 			text-align:right;
-			font-size: 48px;
+			font-size: 50px;
 			margin-right: 25px;
 			margin-top: 25px;
 			margin-bottom: -15px;
@@ -75,6 +61,7 @@
 			}
 
 		p {
+			font-family: 'Alef', Arial, sans-serif;
 			color:#31393d;
 			display:block;
 			text-align:right;
