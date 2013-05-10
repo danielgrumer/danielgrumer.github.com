@@ -29,6 +29,7 @@
 		body {
 			margin: 0px;
 			font-family: 'Alef', Arial, sans-serif;
+			font-weight: normal;
 			font-size: 15px;
 			line-height: 18px;
 			direction: rtl;
