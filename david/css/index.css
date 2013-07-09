@@ -4,12 +4,13 @@
 
 		@font-face {
 			font-family: 'Typicons';
-			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
+/*			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
+*/			src: url('Fonts/typicons-regular-webfont.ttf') format('truetype');
 			font-weight: normal;
 			font-style: normal;
 			}
 
-		
+
 		@font-face {
 			font-family: 'ModernPictogramsNormal';
 			src: url('Fonts/modernpics-webfont.woff') format('woff');
