@@ -16,10 +16,12 @@
 	<!--<link rel='stylesheet/less' href='css/styles.less' type='text/css' />-->
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script><style type="text/css"></style>
 		<script src='js/jquery-1.7.2.min.js'></script>
 		<script src='js/jquery.flexslider-min.js'></script>
 		<script src='js/index.js'></script>
+			<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.2.2/jquery.instagram.min.js'></script>
 	</head>
 
 <body background='bg.png'>
@@ -848,6 +850,20 @@
 		</table>
 
 	</div>
+
+<div class='insta-container'>
+			<div class='instagram'>
+				<script type='text/javascript'>
+					$(".instagram").instagram({
+						userId: '265387997',
+						accessToken: '3162633.9aa81d1.0140b03504314bf89372b06290377456',
+						// image_size:'standard_resolution',
+						show : 15,
+						hash : 'davidlaor'
+					});
+				</script>
+			</div>
+</div>
 
 <!-- 9 - GLUYOT  -->
 	<div class='gluya' id='gluyot'>

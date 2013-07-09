@@ -1,0 +1,16 @@
+.instagram {
+	width:100%;
+	height: 200px;
+}
+
+body {
+	background-color: #ede5cf;
+}
+
+img {
+	float: left;
+	width:200px;
+	position: relative;
+	display: block;
+	margin: 5px;
+}

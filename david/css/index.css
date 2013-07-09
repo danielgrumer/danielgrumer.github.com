@@ -37,7 +37,6 @@
 			}
 
 		div.center {
-			float: center;
 			display: block;
 			width: 700px;
 			margin:auto ;
@@ -143,7 +142,39 @@
 			position:relative;
 		}
 
+.instagram {
+	width: 700px;
+	clear: both;
+	display: block;
+	margin-bottom: 200px;
+	margin:auto;
+}
 
+.instagram-placeholder {
+	width:140px;
+	float: left;
+	position: relative;
+	display: block;
+
+	}
+
+div.insta-container {
+	width: 710px;
+	height: 420px;
+	clear: both;
+	display: block;
+	background-color: transparent;
+	margin-bottom: 600px;
+	margin:auto;
+	}
+
+div.instagram-header {
+	width:710px;
+	height:180px;
+	display: block;
+	clear:both;
+	margin-bottom:5px;
+}
 
 /*  Top Opener  */
 
@@ -1042,6 +1073,7 @@
 		outline-color: #e4e8ee;
 		outline-width: 1px;
 		outline-style: solid;
+
 	}
 
 	table.nicetoknow {
