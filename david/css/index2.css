@@ -1,18 +1,25 @@
 /*  General Objects  */
 
+		@font-face {
+		    font-family: 'Alef';
+		    src: url('fonts/Alef-Bold.eot');
+		    src: url('fonts/Alef-Bold.eot?#iefix') format('embedded-opentype'),
+		         url('fonts/Alef-Bold.woff') format('woff'),
+		         url('fonts/Alef-Bold.ttf') format('truetype'),
+		         url('fonts/Alef-Bold.svg#alefbold') format('svg');
+		    font-weight: bold;
+		    font-style: normal;
+
+		}
+
+
+
+
 		@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
 
 		@font-face {
 			font-family: 'Typicons';
 			src: url('Fonts/typicons-regular-webfont.woff') format('woff');
-			font-weight: normal;
-			font-style: normal;
-			}
-
-		
-		@font-face {
-			font-family: 'ModernPictogramsNormal';
-			src: url('Fonts/modernpics-webfont.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 			}
