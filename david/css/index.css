@@ -1,34 +1,6 @@
 /*  General Objects  */
 
 		@font-face {
-		    font-family: 'Alef';
-		    src: url('Alef-Bold.eot');
-		    src: url('Alef-Bold.eot?#iefix') format('embedded-opentype'),
-		         url('Alef-Bold.woff') format('woff'),
-		         url('Alef-Bold.ttf') format('truetype'),
-		         url('Alef-Bold.svg#alefbold') format('svg');
-		    font-weight: bold;
-		    font-style: normal;
-
-		}
-
-
-
-
-		@font-face {
-		    font-family: 'Alef';
-		    src: url('Alef-Regular.eot');
-		    src: url('Alef-Regular.eot?#iefix') format('embedded-opentype'),
-		         url('Alef-Regular.woff') format('woff'),
-		         url('Alef-Regular.ttf') format('truetype'),
-		         url('Alef-Regular.svg#alefregular') format('svg');
-		    font-weight: normal;
-		    font-style: normal;
-
-		}
-
-
-		@font-face {
 			font-family: 'ModernPictogramsNormal';
 			src: url('Fonts/modernpics-webfont.woff') format('woff');
 			font-weight:normal;
@@ -1037,7 +1009,7 @@
 		width:100%;
 		margin:auto;
 		display:block;
-		margin-bottom:120px;
+		margin-bottom:0px;
 		background: #f4f4f4; /* Old browsers */
 			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI0JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iI2ZlZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNGY0ZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -1113,6 +1085,21 @@
 	}
 
 /* Instush... */
+		div.instaheader {
+			width:100%;
+			height:100px;
+			background-color: rgb(48, 128, 204);
+			display: block;
+		}
+
+		h3.instaheader {
+			color:white;
+			font-size:26px;
+			text-align: center;
+			margin:0px;
+			font-family: 'Alef';
+
+		}
 
 		.instagram {
 			width: 100%;
@@ -1123,10 +1110,11 @@
 		}
 
 		.instagram-placeholder {
-			width:140px;
+			width:14.2857143%;
 			float: left;
 			position: relative;
 			display: block;
+			margin:0;
 
 			}
 
@@ -1140,13 +1128,6 @@
 			margin:auto;
 			}
 
-		div.instagram-header {
-			width:710px;
-			height:180px;
-			display: block;
-			clear:both;
-			margin-bottom:5px;
-		}
 
 /*  List Table  */
 
