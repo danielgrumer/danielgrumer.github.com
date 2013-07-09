@@ -2,6 +2,21 @@
 
 		@font-face {
 		    font-family: 'Alef';
+		    src: url('Alef-Bold.eot');
+		    src: url('Alef-Bold.eot?#iefix') format('embedded-opentype'),
+		         url('Alef-Bold.woff') format('woff'),
+		         url('Alef-Bold.ttf') format('truetype'),
+		         url('Alef-Bold.svg#alefbold') format('svg');
+		    font-weight: bold;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'Alef';
 		    src: url('Alef-Regular.eot');
 		    src: url('Alef-Regular.eot?#iefix') format('embedded-opentype'),
 		         url('Alef-Regular.woff') format('woff'),
@@ -9,6 +24,7 @@
 		         url('Alef-Regular.svg#alefregular') format('svg');
 		    font-weight: normal;
 		    font-style: normal;
+
 		}
 
 
@@ -100,8 +116,7 @@
 
 		p.flavours {
 			position:relative;
-/*			text-align: center;
-*/			font-size: 14px;
+			font-size: 14px;
 			padding:5px;
 			margin-right:12px;
 			margin-left:24px;
@@ -111,8 +126,7 @@
 			direction: rtl;
 			background: #f3f8fa;
 			color: #8b6a46;
-/*			border-radius: 2px;
-*/			font-weight: normal;
+			font-weight: normal;
 			font-style: normal;
 			width: 173px;
 		}
@@ -142,39 +156,7 @@
 			position:relative;
 		}
 
-.instagram {
-	width: 700px;
-	clear: both;
-	display: block;
-	margin-bottom: 200px;
-	margin:auto;
-}
 
-.instagram-placeholder {
-	width:140px;
-	float: left;
-	position: relative;
-	display: block;
-
-	}
-
-div.insta-container {
-	width: 710px;
-	height: 420px;
-	clear: both;
-	display: block;
-	background-color: transparent;
-	margin-bottom: 600px;
-	margin:auto;
-	}
-
-div.instagram-header {
-	width:710px;
-	height:180px;
-	display: block;
-	clear:both;
-	margin-bottom:5px;
-}
 
 /*  Top Opener  */
 
@@ -701,8 +683,7 @@ div.instagram-header {
 		color: #d4bb78;
 		position:relative;
 		padding: 25px 25px 0px 0px;
-/*		text-shadow: 2px 2px 2px rgb(230,230,230);
-*/		display: block;
+		display: block;
 		direction: rtl;
 		float:right;
 		vertical-align: middle;
@@ -1068,8 +1049,7 @@ div.instagram-header {
 			background: linear-gradient(to bottom,  #f4f4f4 0%,#ffffff 24%,#feffff 75%,#f4f4f4 100%); /* W3C */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-8 */
 
-/*		box-shadow: 2px 1px 15px #a18972;
-*/		padding: 40px 0px;
+		padding: 40px 0px;
 		outline-color: #e4e8ee;
 		outline-width: 1px;
 		outline-style: solid;
@@ -1088,11 +1068,9 @@ div.instagram-header {
 	th.nicetoknow {
 		font-size: 30px;
 		color: #d4bb78;
-		/* padding: 25px; */
 		padding-top: 35px;
 		padding-bottom:40px;
-/*		text-shadow: 2px 2px 2px rgb(230,230,230);
-*/		font-weight: normal;
+		font-weight: normal;
 		font-style: normal;	
 	}
 
@@ -1128,12 +1106,47 @@ div.instagram-header {
 		}
 
 	img.nicetoknow {
-/*		box-shadow: 2px 2px 10px #cfd2d4;
-*/		height: 210px;
+		height: 210px;
 		width: 210px ;
 		border-radius: 1px;
 		clear:both;
 	}
+
+/* Instush... */
+
+		.instagram {
+			width: 100%;
+			clear: both;
+			display: block;
+			margin-bottom: 200px;
+			margin:auto;
+		}
+
+		.instagram-placeholder {
+			width:140px;
+			float: left;
+			position: relative;
+			display: block;
+
+			}
+
+		div.insta-container {
+			width: 100%;
+			height: 420px;
+			clear: both;
+			display: block;
+			background-color: transparent;
+			margin-bottom: 600px;
+			margin:auto;
+			}
+
+		div.instagram-header {
+			width:710px;
+			height:180px;
+			display: block;
+			clear:both;
+			margin-bottom:5px;
+		}
 
 /*  List Table  */
 
@@ -1256,8 +1269,7 @@ div.instagram-header {
 			margin-bottom:2px;
 			display:block;
 			clear: both;
-/*			box-shadow: 2px 1px 10px #524733;
-*/			outline-color: #e4e8ee;
+			outline-color: #e4e8ee;
 			outline-width: 1px;
 			outline-style: solid;
 			text-align: center;
@@ -1285,13 +1297,6 @@ div.instagram-header {
 			background: #eef2f3;
 			position:relative;
 			text-align:justify;
-/*			word-spacing: -1px;
-			letter-spacing: -0.4px;
-			font-weight: normal;
-			font-style: normal;*/
-/*			text-shadow: 2px 2px 2px #b2bcbf;
-	        filter: dropshadow(color=#b2bcbf, offx=1, offy=1);*/
-
 			}
 
 /*  Gluya  */
@@ -1316,14 +1321,12 @@ div.instagram-header {
 		padding-left:50px;
 		padding-right:50px;
 		background: #3080cc;
-/*		background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(9, 124, 220)), color-stop(100%, rgb(12, 73, 125)));
-*/		z-index: 1;
+		z-index: 1;
 		border-radius: 1px;
 		float:left;
 		top:450px;
 		font-size:26px;
-/*		box-shadow: 2px 2px 6px #2c5c85;
-*/	}
+	}
 
 	img.gluya {
 		width:1000px;
@@ -1385,11 +1388,10 @@ div.instagram-header {
 
 	}
 
-div.margin {
-		border-radius: 2px;
-		margin-bottom:50px;
-}
-/*  Footer  */
+	div.margin {
+			border-radius: 2px;
+			margin-bottom:50px;
+	}
 
 		footer {
 			background-color:#6a6357;
@@ -1494,10 +1496,8 @@ div.margin {
 			line-height: 100px;
 			color: #847a69;
 			text-align: center;
-/*			text-shadow: 0px 1px 4px #585249;
-*/			font-weight: normal;
+			font-weight: normal;
 			font-style: normal;
-
 		}
 
 
@@ -1507,8 +1507,7 @@ div.margin {
 			font-weight: normal;
 			font-size:50px;
 			text-align: center;
-/*			text-shadow: 0px 1px 3px #c3c6c8;
-*/			position: relative;
+			position: relative;
 			top:1px;
 			font-weight: normal;
 			font-weight: normal;
@@ -1535,14 +1534,13 @@ div.margin {
 			top:1px;
 			font-weight: normal;
 			color: #847a69;
-/*			text-shadow: 0px 1px 3px #585249;
-*/			font-weight: normal;
+			font-weight: normal;
 			font-style: normal;
 
 		}
 
-.whitetext {
-	color:white;
-	font-size:80px;
-}
+	.whitetext {
+		color:white;
+		font-size:80px;
+	}
 
