@@ -1,0 +1,136 @@
+/* TYPOGRAPHY */
+
+	@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+		@font-face {
+			font-family: 'Typicons';
+			src: url('Fonts/typicons-regular-webfont.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+
+		@font-face {
+			font-family: 'ModernPictogramsNormal';
+			src: url('Fonts/modernpics-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		body {
+			margin: 0px;
+			font-family: 'Alef Hebrew', Arial, sans-serif;
+			font-weight: normal;
+			font-size: 15px;
+			line-height: 18px;
+			direction: rtl;
+			background-color: #d9d2bd;
+			color:black;
+			}
+
+/* HEADER */
+
+
+	div.central {
+		width:620px;
+		margin:auto;
+		margin-top:170px;	
+		}
+
+	div.margin-medium {
+		margin-top:100px;
+		}
+
+	div.margin-small {
+		margin-top:25px;
+		}
+
+	h1 {
+		font-size:106px;
+		line-height: 96px;
+		margin:auto;
+		text-align: center;
+		font-weight: normal;
+		}
+
+	h2 {
+		font-size:18px;
+		margin:auto;
+		text-align: center;
+		font-weight: normal;
+		}
+
+/* FORMS */
+
+	input {
+		background-color:white;
+		color:#d9d2bd;
+		border-radius: 2px;
+		border:0px;
+		border-color:transparent;
+		height:35px;
+		font-size: 18px;
+		font-family: 'Alef';
+		padding:0;
+		padding-right:7px;
+		font-weight: normal;
+		}
+
+	input.form_name {
+		width:170px;
+		}
+
+	input.form_mail {
+		width:300px;
+		}
+
+	input.form_send {
+		color:white;
+		background-color: black;
+		border-radius:2px;
+		border:0px;
+		padding:0px;
+		height:35px;
+		width:110px;
+		font-size: 18px;
+		font-family: 'Alef';
+		font-weight: normal;
+		margin:0px;
+		}
+
+
+/* INFOGRAPHICS */
+
+	td {
+		border:0px;
+		margin:0px;
+	}
+
+	table.info {
+		width:620px;
+		color:black;
+		border:1px;
+		margin:auto;
+	}
+
+	td.icon {
+		width:30px;
+	}
+
+	td.wide {
+		width:80px;
+	}
+
+	td.category {
+		font-size: 10px;
+		height:10px;
+		line-height: 12px;
+		color:black;
+	}
+
+	td.number {
+		line-height: 12px;
+		font-size:18px;
+		color: black;
+		height:16px;
+	}
