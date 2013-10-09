@@ -6,7 +6,6 @@ div.central {
 	}
 
 object.location {
-	height:200px;
 	display: block;
 	float:none;
 	margin:auto;
@@ -37,8 +36,7 @@ div.button {
 
 div.logo {
 	margin-top:40px;
-	width:86%;
-
+	width:83%;
 	}
 
 a.website {
@@ -56,7 +54,6 @@ a.website {
 	}
 
 object.logo {
-	width:35%;
-	float:left;
-	}
+	float: left;
+}
 
