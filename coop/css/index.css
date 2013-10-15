@@ -1,0 +1,181 @@
+/*  General Objects  */
+
+		@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+		@font-face {
+			font-family: 'Typicons';
+			src: url('Fonts/typicons-regular-webfont.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+
+		@font-face {
+			font-family: 'ModernPictogramsNormal';
+			src: url('Fonts/modernpics-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			}
+
+		body {
+			font-family: 'Alef Hebrew', Arial, sans-serif;
+			font-weight: normal;
+			line-height: 18px;
+			direction: rtl;
+			background-color: #c7b199;
+			color:#333333;
+			text-align:center;
+			}
+
+
+		a {
+			color:#333333;
+			text-decoration: underline;
+			}
+
+		a:hover {
+			color:#666666;
+			}
+
+		.center {
+			display: block;
+			width: 700px;
+			margin:auto;
+			}
+
+		div.join {
+			background-color: white;
+			width:100%;
+			color:#c7b199;
+		}
+
+		h1 {
+		font-size: 35px;
+		font-weight:normal;
+			}
+
+		h2 {
+		font-size: 30px;
+		font-weight:normal;
+
+			}
+
+		h3 {
+		font-size: 20px;
+		font-weight:normal;
+
+			}
+
+		p {
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: normal;
+		width:650px;
+		text-align: justify;
+		margin:auto;
+		}
+
+		p.medium {
+			width:530px;
+			text-align: right;
+			padding-right: 20px;
+			position:relative;
+			right:25px;		}
+
+		p.small {
+			width:340px;
+			float:left;
+			margin-right:10px;
+		}
+
+		img.right {
+			width:140px;
+			float:right;
+			top:-5px;
+			position:relative;
+		}
+
+		div.rights {
+			width:650px;
+		}
+
+		iframe {
+			width:340;
+			height:340px;
+			float:right;
+			border:2px;
+			border-color: white;
+			clear:none;
+		}
+
+		div.center700 {
+			width:700px;
+			margin:auto;
+		}
+
+/* transitions */
+		.transition {
+		position:relative;
+			}
+
+		.t1 {
+			top:-100px;
+			left:20px;
+		}
+
+		.t2 {
+
+		}
+
+		.t3 {
+			left:-328px;
+			top:-125px;
+		}
+
+
+/* colors */
+	.black {
+		color:#333333;
+		}
+
+	.white {
+		color:white;
+		}
+
+/* margins */
+
+		.top15 {
+			margin-top:15px;
+			}
+
+		.top30 {
+			margin-top:30px;
+			}
+
+		.top60 {
+			margin-top:60px;
+			}
+
+		.top120 {
+			margin-top:120px;
+			}
+
+		.bot15 {
+			margin-bottom:15px;
+			}
+
+		.bot30 {
+			margin-bottom:30px;
+			}
+
+		.bot60 {
+			margin-bottom:60px;
+			}
+
+		.bot120 {
+			margin-bottom:120px;
+			}
+
+		.hidden {
+			visibility: hidden;
+		}
