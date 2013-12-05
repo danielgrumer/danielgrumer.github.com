@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+
+
+
+body {
+ 	font-family: "Alef Hebrew", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	background: #fff;
+	margin: 0; padding: 0;
+	font: 8px;
+}
+* {margin: 0; padding: 0; outline: none;}
+img {border: none;}
+h1 {
+	font-family: "Alef Hebrew",  “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	color: #e84b44;
+	text-align: center;
+	font-weight: normal;
+	margin: 20px 0 0 0;
+	padding-top:5px;
+
+}
+
+.container {
+	overflow: hidden;
+	width: 800px;
+	margin: auto;
+}
+#main {
+	padding: 10px;
+	background: #fff;
+}
+a {color: #fff;}
+
+/*--Main Image Preview--*/
+.main_image {
+	width: 533px; height: 533px;
+	float: right;
+	background: #333;
+	position: relative;
+	color: #fff;
+}
+.main_image h2 {
+	font-weight: normal;
+	margin: 0 0 0px;	padding: 10px;
+}
+.main_image p {
+	padding: 10px;	margin: 0;
+}
+.block small { 
+	padding: 0 0 0 0px; 
+	margin:0px;
+	color:#f7928d;
+}
+.main_image .block small {margin-left: 10px;}
+.main_image .desc{
+	position: absolute;
+	bottom: 0;	left: 0;
+	width: 100%;
+	display: none;
+}
+.main_image .block{
+	width: 100%;
+	background: #111;
+}
+.main_image a.collapse {
+	height: 27px; width: 93px;
+	text-indent: -99999px;
+	position: absolute; 
+	top: -27px; right: 20px; 
+}
+.main_image a.show {background-position: left bottom;} 
+
+
+.image_thumb {
+	float: left;
+	width: 250px;
+	height: 533px;
+	overflow-y:auto;
+	overflow-x:none;
+	background: #fff;
+
+}
+.image_thumb img {
+	float: left;
+	border:1px solid #d4d4d4;
+}
+.image_thumb ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+.image_thumb ul li{
+	margin: 0; padding: 10px 11px;
+	background: #fff;
+	width: 225px;
+	float: left;
+	border-bottom:1px #ddd solid;
+
+
+}
+.image_thumb ul li.hover {
+	background: #f8f8f8;
+	cursor: pointer;
+}
+.image_thumb ul li.active {
+	background: #f0f0f0;
+	cursor: default;
+}
+html .image_thumb ul li h2 {
+	margin: 5px 0; padding: 0;
+}
+.image_thumb ul li .block {
+	float: left; 
+	margin-left: 10px;
+	padding: 0;
+}	
+.image_thumb ul li p{display: none;}
+
+h3 {
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+	color:#e84b44;
+	padding-bottom:15px;
+	padding-top:5px;
+
+}
+
+h2 { 
+	color:#e74d45;
+	font-weight:normal;
+	font-size:14px;
+	line-height: 9px;
+	padding:0px;
+}
