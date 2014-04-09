@@ -1,0 +1,81 @@
+<script type="text/javascript">
+
+function random_profiles() 
+{
+ var image_number = 0;
+ function ImageArray (n) {
+   this.length = n;
+   for (var i =1; i <= n; i++) {
+     this[i] = ' '
+   }
+ }
+ var ARR_SIZE=3
+ image = new ImageArray(ARR_SIZE)
+ image[0] = 'ido'
+ image[1] = 'nir'
+ image[2] = 'elad'
+
+ function random() {
+ 	return Math.floor((Math.random()*ARR_SIZE));
+ }
+ 
+ var r = random()
+
+ document.write('<img class="a-profile" src="' + image[r]+ '1.jpg">');
+ document.write('<img class="b-profile" src="' + image[r]+ '2.jpg">');
+
+//-->
+}
+</script>
+
+<style media="screen" type="text/css">
+.image-container {
+    display: inline-block;
+    position: relative;
+}
+
+.v-button {
+    position: absolute;    
+    right: 130px;
+    top: 80px;
+	height:40px;
+	width:80px;
+}
+
+.x-button {
+    position: absolute;    
+    right: 130px;
+    top: 140px;
+	height:40px;
+	width:80px;
+}
+
+.a-profile {
+    position: absolute;    
+    left: 19px;
+    top: 54px;
+	height:158px;
+	weight:158px;
+}
+
+.b-profile {
+    position: absolute;    
+    left: 181px;
+    top: 54px;
+	height:158px;
+	weight:158px;
+	
+}
+
+
+</style>
+
+<em>
+<div class="image-container">
+    <img src="FaceCaptchaEmpty.png">
+	<a href="#" onClick="alert('Correct')"><img class="v-button" src="v.png"></a>
+	<a href="#" onClick="alert('Wrong')"><img class="x-button" src="x.png"></a>
+	<script type="text/javascript">random_profiles() </script>	
+</div>
+
+<p><p><p>
