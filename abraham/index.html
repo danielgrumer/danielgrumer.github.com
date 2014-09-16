@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html lang='en-US'>
-	<head>
-		<meta charset='utf-8'>
-		<title>אברהם إبراهيم</title>
-		<link type="text/css" rel="stylesheet" media="screen" href="js/styles/style.css" />
-		<link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
-		<link rel="stylesheet" href="Fonts/Abraham/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
-		<link rel="stylesheet" href="Fonts/stylesheet.css" type="text/css" charset="utf-8" />
-		<link rel='stylesheet' href='css/index.css' type='text/css' />
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
-		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
-	</head>
+<head>
+	<meta charset='utf-8'>
+	<title>אברהם إبراهيم</title>
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>	
+	<script src="js/modernizr.custom.41080.js"></script>
+	<script> //Modernizer
+		Modernizr.load([
+		  {
+		    test : Modernizr.fontface && Modernizr.canvas && Modernizr.cssgradients,
+		    nope : ['js/no.js']
+		  },
+		]);
+	</script>
+	<link type="text/css" rel="stylesheet" media="screen" href="js/styles/style.css" />
+	<link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="Fonts/Abraham/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel="stylesheet" href="Fonts/stylesheet.css" type="text/css" charset="utf-8" />
+	<link rel='stylesheet' href='css/index.css' type='text/css' />
+	<script> //Google Analytics
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-52786102-1', 'auto');
+	  ga('send', 'pageview');
+	  console.log("hello")
+	</script>	
+	<script> //Amit's stuff :-)
+	$(document).ready(function() {
+		function IsEmail(email) {
+		  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9])+$/;
+		  return regex.test(email);
+		}
+		// alert('amit');
+		$('#email').keyup(function() {
+			// alert('amit');
+			if (IsEmail($(this).val())) {
+				$('#sendbutton').css('display','inline');
+				$('#sendbutton').removeAttr('disabled');
+				$( "#sendbutton" ).animate({
+				    opacity: 1.0,
+				  }, 200, function() {
+				    // Animation complete.
+				  });
+			} else {
+				$( "#sendbutton" ).animate({
+				    opacity: 0,
+				  }, 200, function() {
+				    // Animation complete.
+				  });
+				$('#sendbutton').attr('disabled', 'disabled');
+			}
+		});
+
+		function randomArabicString() {
+			var chars = "صثقفغعهخحمنتالبيسظطذدزرو";
+			return randomString(chars);
+		}
+
+		function randomHebrewString() {
+			var chars = "אבגדהוזחטיכלמנסעפצקרשתףץ";
+			return randomString(chars);
+		}
+
+		function randomString(chars) {
+			var string_length = 1;
+			var randomstring = '';
+			for (var i=0; i<string_length; i++) {
+				var rnum = Math.floor(Math.random() * chars.length);
+				randomstring += chars.substring(rnum,rnum+1);
+			}
+			return randomstring;
+		}
+
+		var flag = 0;
+		window.setInterval(function(){
+			if (flag) {
+				$('#randheb').text(randomHebrewString());
+				flag = 0;
+			} else {
+				$('#randarab').text(randomArabicString());
+				flag = 1;
+			}
+		},2000);
+	});
+	</script>
+</head>
 
 <body>
-
+<div class='site' id='site'>
 <!-- 1 COVER -->	
-	<div class='cover'>
-		<div class='coverInner'>
-		<!--<img class='cover' src='img/cover.jpg'>-->
-			<h1 class='abraham'>אברהם إِبْرَاهِيمُ</h1>
+	<div class='cover outer'>
+		<div class='coverInner inner'>
+			<h1 class='abraham'>אברהם إبراهيم</h1>
 			<h2 class='abraham'>גופן עברי ערבי خط عبري عربي</h2>
 		</div>
 	</div>
 
 <!-- 2 - JANUZAJ + ESTI -->
 	<div class='januzaj'>
-		<img class='januzaj' src="img/januzaj.svg" alt="Kiwi standing on oval">
+		<img class='januzaj' src="img/januzaj.svg" alt="Cannot display image :/">
 			<p class='esti blue'>יחסי הכוחות במרחב הישראלי משתקפים בכל אות ואות. שילוט הוא אולי הבעיה</p>
 			<p class='esti pink'>علاقات القوَّة في الحيّز الإسرائيلي تنعكس في كل حرف وحرف. تكون اللافتات مشكلة</p>
 			<p class='esti blue'>הקטנה, ואולי גם הקטנונית ביותר במסכת היחסים בין החברה היהודית לערבית,</p>
@@ -71,20 +146,20 @@
 
 <!-- 5 - DIFFERENCES -->
 	<div class='differences'>
-		<img class='differences sheen' src="img/sheen.svg" alt="Kiwi standing on oval">
+		<img class='differences sheen' src="img/sheen.svg" alt="Cannot display image :/">
 		<h3 class='differences sheen'>אחת עגולה ואחת מרובעת</h3>
 		<p class='differences sheen'>בגלל שבאופן יחסי זו לזו הערבית עגולה והעברית מרובעת - בתהליך העיצוב עיגלתי את העברית ויישרתי ו"ריבעתי" את הערבית.</p>
 
-		<img class='differences line' src="img/difference1.svg" alt="Kiwi standing on oval">
+		<img class='differences line' src="img/difference1.svg" alt="Cannot display image :/">
 		<h3 class='differences line'>אחת צומחת ואחת תלויה</h3>
 		<p class='differences line'>האותיות העבריות בנויות כך שהן "תלויות מלמעלה" ובערבית הן "צומחות מלמטה". 
 		</br>כדי "לקשור" אותם, התאמתי בין החלק העליון של העברית והתחתון של הערבית.</p>
 
-		<img class='differences grid' src="img/grid.svg" alt="Kiwi standing on oval">
+		<img class='differences grid' src="img/grid.svg" alt="Cannot display image :/">
 		<h3 class='differences grid'>אחת שורות אחת בלאגן</h3>
 		<p class='differences grid'>כדי להתאים בין השפות, יצרתי גריד אחד משותף, בו העליות והירידות הארוכות של הערבית קוצרו על מנת לעזור ביצירת מבנה שורה אחת אחידה.</p>
 
-		<img class='differences cuts' src="img/cuts.svg" alt="Kiwi standing on oval">
+		<img class='differences cuts' src="img/cuts.svg" alt="Cannot display image :/">
 		<h3 class='differences cuts'>דקורציה באמצעות החסרה</h3>
 		<p class='differences cuts'>חיתוכים בזויות קבועות עוזרים ליצור קשר ויזואלי בין שתי השפות.</p>
 	</div>
@@ -107,24 +182,24 @@
 
 <!-- 7 - BLOWUPS -->
 	<div class='blowups'>
-		<h3 class='blowups'>קدעطזعاכגדחעכגחגכע</h3>
+		<h3 class='blowups'>קدעطזعا</h3>
 	</div>
 
 <!-- 8 - TSAYAD -->
 	<div>
 		<h3 class='tsayad'>בחמש קם صياد ויצא את ביתוֹ</h3>
-		<img class='tovim' src="img/tovim.svg" alt="Kiwi standing on oval">
+		<img class='tovim' src="img/tovim.svg" alt="Cannot display image :/">
 		<h4 class='evyatar'>יש לי סיכוי להנצל, אנא עארף</h4>		
 	</div>
 
 <!-- 9 - SIMILARITIES -->
 	<hr>
 	<div class='similarities'>
-		<img class='similarities' src="img/similarities.svg" alt="Kiwi standing on oval">
+		<img class='similarities' src="img/similarities.svg" alt="Cannot display image :/">
 	</div>
-	<hr>
 
-<!-- 10 - PANAGRAMS -->
+<!-- 10 - PANAGRAMS --><!--
+	<hr>
 	<div>
 		<table class='panagrams'>
 			<tr>
@@ -145,116 +220,145 @@
 				<td class='panagrams pan-he'><hr class='short'><p class='p4'>כהרף־עין נשבט לךָ גוץ</br>צְמֵא־דם. תְּפס חָזָק!</p></td>
 			</tr>
 		</table>
-	</div>
+	</div>-->
 
 <!-- 11 - LAHEM -->
 	<hr class='spaced'>
 	<div class='lahem'>
-	<table class='lahem'>
-		<tr>
-			<td class='lahem'>
-				<h1 class='lahem'>לחם</h1>
-				<p class='lahem1'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
-			</td>
-			<td class='lahem'>
-				<h1 class='lahem'>لحم</h1>
-				<p class='lahem1'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
-			</td>			
-		</tr>		
+		<table class='lahem'>
+			<tr>
+				<td class='lahem'>
+					<h1 class='lahem'>לחם</h1>
+					<p class='lahem1'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
+				</td>
+				<td class='lahem'>
+					<h1 class='lahem'>لحم</h1>
+					<p class='lahem1'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
+				</td>			
+			</tr>		
 
-		<tr>
-			<td class='lahem'>					
-				<h2 class='lahem'>לחם</h2>
-				<p  class='lahem2'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
-			</td>
-			<td class='lahem'>
-				<h2 class='lahem'>لحم</h2>
-				<p class='lahem2'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
-			</td>			
-		</tr>	
+			<tr>
+				<td class='lahem'>					
+					<h2 class='lahem'>לחם</h2>
+					<p  class='lahem2'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
+				</td>
+				<td class='lahem'>
+					<h2 class='lahem'>لحم</h2>
+					<p class='lahem2'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
+				</td>			
+			</tr>	
 
-		<tr>
+			<tr>
+				<td class='lahem'>
+					<h3 class='lahem'>לחם</h3>
+					<p  class='lahem3'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
+				</td>
 			<td class='lahem'>
-				<h3 class='lahem'>לחם</h3>
-				<p  class='lahem3'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
-			</td>
-		<td class='lahem'>
-				<h3 class='lahem'>لحم</h3>
-				<p class='lahem3'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
-			</td>			
-		</tr>
+					<h3 class='lahem'>لحم</h3>
+					<p class='lahem3'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
+				</td>			
+			</tr>
 
-		<tr>
-			<td class='lahem'>	
-				<h4 class='lahem'>לחם</h4>				
-				<p  class='lahem4'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
-			</td>
-			<td class='lahem'>
-				<h4 class='lahem'>لحم</h4>
-				<p class='lahem4'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
-			</td>			
-		</tr>	
+			<tr>
+				<td class='lahem'>	
+					<h4 class='lahem'>לחם</h4>				
+					<p  class='lahem4'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
+				</td>
+				<td class='lahem'>
+					<h4 class='lahem'>لحم</h4>
+					<p class='lahem4'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
+				</td>			
+			</tr>	
 
-		<tr>
-			<td class='lahem'>
-				<h5 class='lahem'>לחם</h5>
-				<p  class='lahem5'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
-			</td>
-			<td class='lahem'>
-				<h5 class='lahem'>لحم</h5>
-				<p class='lahem5'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
-			</td>			
-		</tr>	
+			<tr>
+				<td class='lahem'>
+					<h5 class='lahem'>לחם</h5>
+					<p  class='lahem5'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
+				</td>
+				<td class='lahem'>
+					<h5 class='lahem'>لحم</h5>
+					<p class='lahem5'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
+				</td>			
+			</tr>	
 
-		<tr>
-			<td class='lahem'>
-				<h6 class='lahem'>לחם</h6>
-				<p class='lahem6'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
-			</td>
-			<td class='lahem'>
-				<h6 class='lahem'>لحم</h6>
-				<p class='lahem6'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
-			</td>			
-		</tr>	
-	</table>
+			<tr>
+				<td class='lahem'>
+					<h6 class='lahem'>לחם</h6>
+					<p class='lahem6'>המילה בשר בערבית היא ״לחם״. ממש כמו הלחם הפרוס שיש בצרכנייה הקרובה. אז אם תגידו ״לחם״ בשוק בית לחם הם אשכרה יביאו לכם בשר. שיפודים, קבבים סטייקים... אז עוֹף או בקר?</p>
+				</td>
+				<td class='lahem'>
+					<h6 class='lahem'>لحم</h6>
+					<p class='lahem6'>كلمة خبز باللغة العبرية هي "لحم". مثل اللحم المفروم في يوجد عند اللحام. إذا تطلب "لحم" في السوق في تل أبيب سيعطوك الخبز. لفة، بيتا مع زعتر، أو رغيف الخبز؟</p>
+				</td>			
+			</tr>	
+		</table>
 	</div>
 
 <!-- 12 - LOGO -->
-	<div>
-		<img class='kaf' src="img/kaf.svg" alt="Kiwi standing on oval">
+	<div class='logo'>
+		<p class='pink' id='randheb'></p>
+		<p class='blue' id='randarab'></p>
+		<!-- <img class='kaf' src="img/kaf.svg" alt="Cannot display image :/"> -->
 	</div>
+
+<hr class='last'>
+<!--	<div class='kifak'>
+		<img class='kaf kifak' src="img/kafA.svg" alt="Cannot display image :/">
+		<img class='kaf kifak' src="img/kafB.svg" alt="Cannot display image :/">	
+	</div>-->
+
 
 <!-- 13 - FORM -->
 	<div class='want'>
-		<h2>רוצה את הפונט?</h2>
-		<p>הוא עדיין לא מרגיש לי מוכן ומספיק בשל כדי שאוכל להפיץ אותו. יש עליו עוד עבודה ואני רוצה לעצב גם מספרים, סימנים ומשקל נוסף. בינתיים תעודדו אותי אם תשאירו לי את המייל שלכם כדי שאדע שיש מי שמחכה לפונט, ואני מבטיח לעדכן כשיש התפתחויות...</br>דניאל
+		<h2 class='want'>רוצה את הפונט?</h2></br>
+		<p class='want'>הוא עדיין לא מרגיש לי מוכן ומספיק בשל כדי שאוכל להפיץ אותו. יש עליו עוד עבודה ואני רוצה לעצב גם מספרים, סימנים ומשקל נוסף. בינתיים תעודדו אותי אם תשאירו לי את המייל שלכם כדי שאדע שיש מי שמחכה לפונט, ואני מבטיח לעדכן כשיש התפתחויות...</br>דניאל
 		</p>
+
+		<div class='form'>
+			<form action="send_mail.php" method="post">
+			<input class='sendEmail fill' id="email" type="text" class='inputMail' placeholder="example@domain.com" name="email_address" value="" maxlength="100" />
+			<input style="opacity:0" id="sendbutton" class='sendEmail send' type="submit" value="תודיע לי כשהפונט מוכן, תודה!" />
+			</form>
+		</div>
 	</div>
 
 <!-- 14 - FOOTER -->
 	<footer>
-		<h3>גופן אברהם</br>خط إبراهيم</h3>
-		<p>עיצוב تصميم</br>
-		דניאל גרומר دنيئيل غرومر</br>
-		פרויקט גמר المشروع النهائي</br>
-		בצלאל بصلئيل 2014</br>
-		www.danielgrumer.com/abraham
-		</p>
+		<table class='footable'>
+			<tr><td class='footh3'>
+		<h3 class='foot pink'>גופן אברהם</br>خط إبراهيم</h3>
+		</td><td class='footd'>
+			<p class='foot'><span class='blue'>עיצוב تصميم</span></br>
+			דניאל גרומר دنيئيل غرومر</br>
+			פרויקט גמר المشروع النهائي</br>
+			בצלאל بصلئيل 2014</p>
+		</td><td class='footd'>
+			<p class='foot'><span class='blue'>הנחייה توجيه</span></br>
+			נעם שכטר نوعم شيختر</br></br>
+			
+			<span class='blue'>ייעוץ טיפוגרפי בערבית</br>
+			مشورة التصميم بالعربية</span></br>
+			<a href='http://www.alazaat.com' target='_blank'>חוסיין אלאזעט حسين الأزعط</a></br></br>
 
-		<p>הנחייה توجيه</br>
-		נעם שכטר نوعم شيختر</p>
-		
-		<p>ייעוץ טיפוגרפי בערבית</p>
-		مشورة التصميم بالعربية</br>
-		ח'וסיין אלאזעט حسين الأزعط</p>
-
-		<p>ייעוץ לשוני المشورة اللغوية</br>
-		הדס הרוש هداس هروش
-		</p>
-
-		<img class='sheen2' src="img/sheen2.svg" alt="Kiwi standing on oval">
-
+			<span class='blue'>ייעוץ לשוני المشورة اللغوية</span></br>
+			הדס הרוש هداس هروش
+			</p>
+		</td><td class='sheen2'>
+			<img class='sheen2' src="img/sheen2.svg" alt="Cannot display image :/">
+		</td>	
+		</table>
 	</footer>
-
+</div>
+<div class='nosite' id='nosite'>
+	<h1 class='nosite'>:(</h1>	
+	<h2 class='nosite'>your browser is not supported</h1>
+	<p class='nosite'>Please come again with a newer version</p>
+	<div class='links'>
+		<a href='http://www.apple.com/safari/' target='_blank'><img src='img/safari.png'></a>
+		<a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'><img src='img/chrome.png'></a>
+		<a href='http://www.mozilla.org/firefox/' target='_blank'><img src='img/firefox.png'></a>	
+	</div>
+</div>
 </body>
+
 </html>
